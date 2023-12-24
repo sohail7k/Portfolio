@@ -1,0 +1,148 @@
+body {
+  display: flex;
+}
+header {
+  position: fixed;
+  background-color: cadetblue;
+  /* height: 40.9rem; */
+  height :100vh;
+  width: 20%;
+}
+
+.row > * {
+  width: 50%;
+}
+ul {
+  list-style: none;
+}
+li {
+  cursor: pointer;
+  font-family: "BwNistaInt-xBd" !important;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #41464b;
+}
+.profile {
+  padding: 16px;
+  text-align: center;
+}
+.profile-image {
+  margin: auto auto;
+  display: block;
+  width: 120px;
+  border: 6px solid #474c6a;
+}
+.navbar > ul {
+  display: block;
+}
+
+.navbar>ul > li {
+  font-weight: bolder;
+  padding: 16px 0 16px 0;
+  width: 10rem;
+}
+
+.About {
+  /* position: fixed; */
+  background: no-repeat;
+  background-image: url("/images/manOnTable.svg");
+  /* background-size: cover; */
+  background-position: right;
+  background-size: contain;
+  /* background-color:    aquamarine; */
+  height: 40.9rem;
+}
+
+.Intro {
+  position: relative;
+  color: #41464b;
+  width: 95%;
+  top: 10rem;
+  left: 2rem;
+  font-size: 3rem;
+  font-family: "BwNistaInt-xBd" !important;
+}
+img {
+  width: 2.8rem;
+}
+
+.fa-brands{
+  color: white;
+  border-radius: 50%;
+  /* width: 50px; */
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: rgb(127, 190, 192);
+  cursor: pointer;
+}
+.fa-brands:hover{
+  background-color: rgb(70, 128, 130);
+}
+
+/* .infoModal {
+  display: none;
+  font-size: 0.8rem;
+  box-shadow: 1px 1px 1px 1px;
+  background-color: #e1e4e8;
+  border-radius: 2px;
+  z-index: 1;
+  position: absolute;
+  width: 12rem;
+}
+.infoModal::after {
+  display: block;
+} */
+
+.main {
+  width: 64rem;
+  margin-left: 22rem;
+}
+.section-heading {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.section-title::after {
+  content: "";
+  /* position: absolute; */
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+#two {
+  padding: 60px 0;
+}
+.skills-nav {
+  text-align: center;
+  align-items: center;
+}
+.skills-nav > ul {
+  background-color: #149ddd;
+  border-radius: 50px;
+  padding: 0px 12px 0px 12px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 2rem;
+  display: flex;
+}
+.skills-nav > ul > li {
+  padding: 3px 15px 3px 15px;
+  /* width: 4rem; */
+}
+.resume-item{
+    border-left: 2px solid #1f5297;
+    padding: 0 0 20px 20px;
+}
+.resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
